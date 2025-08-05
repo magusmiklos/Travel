@@ -1,0 +1,12 @@
+[workspace]
+members = [".", "grammar"]
+
+[package]
+name = "gifdsl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gif = "0.11"
+tree-sitter = "0.22.6"
+tree-sitter-gifdsl = { path = "grammar" }

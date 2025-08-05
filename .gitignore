@@ -1,0 +1,26 @@
+# === Rust ===
+/target/
+/Cargo.lock
+
+# === Output ===
+/output.gif
+
+# === Examples ===
+/examples/
+
+# === Tree-sitter generated ===
+/grammar/src/grammar.json
+/grammar/src/node-types.json
+/grammar/src/parser.c
+/grammar/src/tree_sitter/
+
+# === All language bindings & build artifacts ===
+/grammar/bindings/
+/grammar/build.rs
+/grammar/CMakeLists.txt
+/grammar/Makefile
+/grammar/Package.swift
+/grammar/go.mod
+/grammar/package.json
+/grammar/pyproject.toml
+/grammar/setup.py

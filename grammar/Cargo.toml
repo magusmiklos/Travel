@@ -1,0 +1,13 @@
+[package]
+name = "tree-sitter-gifdsl"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+tree-sitter = "0.22.6"
+
+[build-dependencies]
+cc = "1.0"
